@@ -1,17 +1,6 @@
 {
+  "extends": "./tsconfig.base",
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "jsx": "preserve",
-    "moduleResolution": "node",
-    "strict": true,
-    "noEmit": true,
-    "allowJs": true,
-    "skipLibCheck": true,
-    "isolatedModules": true,
-    "esModuleInterop": true
-  },
-  "include": [
-    "src"
-  ]
+    "module": "commonjs"
+  }
 }

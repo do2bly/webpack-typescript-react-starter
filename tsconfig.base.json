@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "lib": ["esnext", "dom"],
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "jsx": "react",
+    "allowJs": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/**/*",
+    "../share/src/**/*"
+  ],
+  "exclude": [
+    "testUtils",
+    "__tests__",
+    "**/*.test.*",
+    "**/*.spec.*",
+    "../share/src/**/*.test.*",
+    "../share/src/**/*.spec.*",
+    "./node_modules",
+    "../../node_modules"
+  ]
+}
